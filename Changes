@@ -1,5 +1,13 @@
 Revision history for Perl extension String::Random:
 
+0.23   Tue Dec 03 2013
+- Add t/style-trailing-space.t .
+- Update the POD in lib/String/Random.pm .
+- Add t/pod.t .
+- Convert Build.PL to Test::Run::Builder.
+- Hopefully fix https://rt.cpan.org/Public/Bug/Display.html?id=86894
+    - Bug #86894 for String-Random: Spurious warnings
+
 0.22   Thu Sep 21 2006
 - Fix README to reflect current reality.
 - Random cleanup in this file.
