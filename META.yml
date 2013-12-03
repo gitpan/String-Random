@@ -2,11 +2,19 @@
 abstract: 'Perl module to generate random strings based on a pattern'
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
-build_requires: {}
+build_requires:
+  Test::More: 0
 configure_requires:
   Module::Build: 0.36
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+keywords:
+  - generate
+  - random
+  - regex
+  - regexp
+  - regular-expression
+  - string
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,14 +23,14 @@ name: String-Random
 provides:
   String::Random:
     file: lib/String/Random.pm
-    version: 0.23
+    version: 0.24
 requires:
   Carp: 0
   Exporter: 0
-  Test::More: 0
   strict: 0
   vars: 0
   warnings: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.23
+  repository: http://github.com/shlomif/perl-String-Random
+version: 0.24
