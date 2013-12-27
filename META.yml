@@ -23,7 +23,7 @@ name: String-Random
 provides:
   String::Random:
     file: lib/String/Random.pm
-    version: 0.24
+    version: 0.25
 requires:
   Carp: 0
   Exporter: 0
@@ -32,5 +32,5 @@ requires:
   warnings: 0
 resources:
   license: http://dev.perl.org/licenses/
-  repository: http://github.com/shlomif/perl-String-Random
-version: 0.24
+  repository: http://github.com/shlomif/String-Random
+version: 0.25
