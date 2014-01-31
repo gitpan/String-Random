@@ -27,7 +27,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw(
 ) ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = ();
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 # These are the various character sets.
 our @upper=("A".."Z");
@@ -445,6 +445,11 @@ L<https://rt.cpan.org/Public/Dist/Display.html?Name=String-Random> .
 Original Author: Steven Pritchard C<< steve@silug.org >>
 
 Now maintained by: Shlomi Fish ( L<http://www.shlomifish.org/> ).
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
